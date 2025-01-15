@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.prism-code {
+  background-color: #1E1E1E !important;
+  border-radius: 0.5rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.token.comment {
+  color: #6A9955;
+}
+
+.token.string {
+  color: #CE9178;
+}
+
+.token.number {
+  color: #B5CEA8;
+}
+
+.token.keyword {
+  color: #569CD6;
+}
+
+.token.function {
+  color: #DCDCAA;
+}
